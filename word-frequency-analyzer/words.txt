@@ -1,0 +1,11 @@
+Text File Formatting Guidelines:
+Words shall matched according to regular expression pattern shown during program initiation. Capitilization may affect frequency results based on
+case-sensitivity option selected during program initiation. Program checks that the total number of words comprising the text file is a value
+that can be cast from a size_t to int without loss of data.
+
+
+Four Conditions for Mutual Exclusion:
+no assumptions on the speed or number of processors or cores;
+no two processes shall be simultaneously inside their critical sections;
+no process running outside its critical section shall block another process;
+no process shall wait indefinitely to enter its critical section.
